@@ -1,3 +1,11 @@
+/* CSS Reset */
+.square {
+    margin:0; 
+    padding:0; 
+    font-size:100%; 
+    line-height:1; 
+}
+/* #element rules: */
 .square {
    height: 300px;
    width: 300px;
@@ -6,5 +14,11 @@
    position: relative;
    line-height: 300px;
    text-align: center;
+   
     
+}
+.center {
+    -ms-transform: translate(0px,150px); /* IE 9 */
+    -webkit-transform: translate(0px,150px); /* Safari */
+    transform: translate(0px,150px); /* Standard syntax */
 }
